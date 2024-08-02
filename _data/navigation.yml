@@ -5,4 +5,12 @@ main:
   - title: "Project Updates"
     url: /blog
   - title: "Research Outputs"
-    url: /research
+    url: /research-outputs/01-overview
+
+research_outputs:
+  - title: Research Outputs
+    children:
+      - title: "Overview"
+        url: /research-outputs/01-overview
+      - title: "DH 2024 Poster & Introducing Coding DH"
+        url: /research-outputs/02-dh2024-poster-introducing-coding-dh

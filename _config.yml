@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Coding Digital Humanities"
 title_separator          : "-"
 subtitle                 : "Exploring DH Coding Communities and Practices on GitHub"
-name                     : "Prof. Zoe LeBlanc"
+name                     : "Zoe LeBlanc"
 description              : "Coding DH"
 url                      : "https://codingdh.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Prof. Zoe LeBlanc"
+  name             : "Zoe LeBlanc"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Assistant Professor of Digital Humanities at UIUC's School of Information Sciences"
   location         : "Office Room 5143,<br> 614 E. Daniel St."
@@ -210,15 +210,10 @@ kramdown:
 
 # Collections
 collections:
-  materials:
+  research_outputs:
     output: true
     permalink: /:collection/:path/
-  assessments:
-    output: true
-    permalink: /:collection/:path/
-  schedule:
-    output: true
-    permalink: /:collection/:path/
+
   
 
 # Sass/SCSS
@@ -313,6 +308,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _research_outputs
+  - scope:
+      path: ""
+      type: research_outputs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "research_outputs"
 
 
 # jekyll-spaceship:
