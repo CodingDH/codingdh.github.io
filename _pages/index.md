@@ -19,22 +19,22 @@ feature_row:
   - image_path: /assets/images/computer_7.png
     alt: "customizable"
     title: "Latest Updates"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    excerpt: "Recent news and updates on the project, including recent publications and presentations."
     url: "/blog"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/computer_8.png
     alt: "fully responsive"
-    title: "Project History"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "Project Scope"
+    excerpt: "Learn more about the history and goals of the project."
     url: "/about"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/computer_9.png
     alt: "100% free"
     title: "GitHub Code"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    excerpt: "View code and work in progress in our GitHub Organization."
+    url: "https://github.com/CodingDH"
     btn_class: "btn--primary"
     btn_label: "Learn more"  
 ---

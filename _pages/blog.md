@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts by Contributors"
+title: "Project Updates"
 permalink: /blog/
 layout: posts
 author_profile: false
