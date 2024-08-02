@@ -53,7 +53,7 @@ We also wanted to examine practices beyond the anglophone DH world. Using Google
 
 Our initial search of the GitHub API uncovered a wide spread of DH-related activity on GitHub, but also revealed some weaknesses of the search approach. Topics were introduced to the platform in 2019, and are less consistently used on older repos. Many users and repos have minimal descriptive text, or don’t explicitly use “digital humanities,” despite being well-known within the DH community.
 
-![Expanding circles of GitHub data][/assets/images/DH2024-CodingDH-Poster-Circles.png]
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/DH2024-CodingDH-Poster-Circles.png" alt="Expanding circles of data, from initial search to removing bots">
 
 As a result, we undertook a multiphase approach to expand our data beyond the initial search results. We added repositories owned by users identified through the initial search, as well as the owners (users and orgs) of identified repos. We also captured data on 23 different interaction types and added users whose activity levels reached a determined threshold.
 
