@@ -57,6 +57,10 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 {% endif %}
 
+{% if page.datatables %}
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.1.3/css/dataTables.dataTables.min.css">
+{% endif %}
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
