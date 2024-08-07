@@ -12,12 +12,21 @@ published_date: 2024-08-07
 excerpt: "This poster introduces the *Coding DH* project and its research areas, focusing on how GitHub has become a space for knowledge production and community formation in Digital Humanities."
 datatables: true
 classes: wide
-sidebar: false
+sidebar: 
+    title: "DH2024 Poster & Introducing Coding DH"
+    nav: dh2024-poster
 layout: single
 toc: true
 ---
 
-[ Start with png of the final poster]
+## Download the Poster
+<a id="download-the-poster"></a>
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/DH2024CodingDHPosterFinalVersion.png">
+        <img src="{{site.baseurl}}/assets/images/DH2024CodingDHPosterFinalVersion.png" alt="DH2024 Conference Poster" style="width:100%" class="image-popup">
+    </a>
+</figure>
 
 Since its release in 2008, GitHub has become crucial infrastructure for both software companies and scholars. Although scholars comprise a small portion of the user base, GitHub’s role in academic research has grown significantly, as the platform hosts work ranging from large research software projects to syllabi and datasets. In Digital Humanities (DH), there has been a strong emphasis on teaching best practices for using GitHub, especially its remote version control and collaborative coding features. However, how scholars utilize GitHub and its impact on DH research and teaching remain under explored. The *Coding DH* project uses GitHub data to examine how the platform has become a space for knowledge production and community formation in DH, focused on the following research areas:
 

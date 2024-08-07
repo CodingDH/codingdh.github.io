@@ -6,3 +6,7 @@ main:
     url: /blog
   - title: "Research Outputs"
     url: /research-outputs
+
+dh2024-poster:
+  - title: "DH2024 Poster"
+    url: "#download-the-poster"
