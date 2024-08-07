@@ -1,18 +1,32 @@
 ---
 title: DH2024 Poster & Introducing Coding DH
-permalink: /research-outputs/02-dh2024-poster-introducing-coding-dh/
+permalink: /research-outputs/01-dh2024-poster-introducing-coding-dh/
 header:
   overlay_color: "#5e616c"
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   overlay_image: /assets/images/cover_image_comp_hum.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  
-excerpt: >
-    Coding DH is a project that attempts to move beyond only discussing best practices for coding in Digital Humanities to exploring how this field has developed and evolved coding practices and communities.
+  teaser: /assets/images/DH2024_conference.png
+sort_order: 1
+published_date: 2024-08-07
+excerpt: "This poster introduces the *Coding DH* project and its research areas, focusing on how GitHub has become a space for knowledge production and community formation in Digital Humanities."
+datatables: true
+classes: wide
+sidebar: 
+    title: "DH2024 Poster & Introducing Coding DH"
+    nav: dh2024-poster
+layout: single
 toc: true
 ---
 
-[ Start with png of the final poster]
+## Download the Poster
+<a id="download-the-poster"></a>
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/DH2024CodingDHPosterFinalVersion.png">
+        <img src="{{site.baseurl}}/assets/images/DH2024CodingDHPosterFinalVersion.png" alt="DH2024 Conference Poster" style="width:100%" class="image-popup">
+    </a>
+</figure>
 
 Since its release in 2008, GitHub has become crucial infrastructure for both software companies and scholars. Although scholars comprise a small portion of the user base, GitHub’s role in academic research has grown significantly, as the platform hosts work ranging from large research software projects to syllabi and datasets. In Digital Humanities (DH), there has been a strong emphasis on teaching best practices for using GitHub, especially its remote version control and collaborative coding features. However, how scholars utilize GitHub and its impact on DH research and teaching remain under explored. The *Coding DH* project uses GitHub data to examine how the platform has become a space for knowledge production and community formation in DH, focused on the following research areas:
 
@@ -49,11 +63,18 @@ To find people, organizations, and projects that are connected to “Digital Hum
 
 We also wanted to examine practices beyond the anglophone DH world. Using Google Translate and manual verification, we found 107 unique terms of DH that correlate to 123 languages, and queried the GitHub API for each.
 
+<!-- Load in datatables from file -->
+{% include translated_terms_table.html %}
+
 ### Expanding Circles of GitHub Engagement
 
 Our initial search of the GitHub API uncovered a wide spread of DH-related activity on GitHub, but also revealed some weaknesses of the search approach. Topics were introduced to the platform in 2019, and are less consistently used on older repos. Many users and repos have minimal descriptive text, or don’t explicitly use “digital humanities,” despite being well-known within the DH community.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/DH2024-CodingDH-Poster-Circles.png" alt="Expanding circles of data, from initial search to removing bots">
+<figure>
+   <a href="{{site.baseurl}}/assets/images/DH2024-CodingDH-Poster-Circles.png">
+      <img src="{{site.baseurl}}/assets/images/DH2024-CodingDH-Poster-Circles.png" alt="Expanding circles of data, from initial search to removing bots" style="width:100%" class="image-popup">
+   </a>
+</figure>
 
 As a result, we undertook a multiphase approach to expand our data beyond the initial search results. We added repositories owned by users identified through the initial search, as well as the owners (users and orgs) of identified repos. We also captured data on 23 different interaction types and added users whose activity levels reached a determined threshold.
 
@@ -66,3 +87,9 @@ As a result, we undertook a multiphase approach to expand our data beyond the in
 [^3]: Andromeda Yelton, “Coding for Librarians: Learning by Example,” April 2015, https://journals.ala.org/index.php/ltr/issue/view/506; Sam Popowich, “Coding and Professional Development-Part 1: A Study in Contradictions,” *Partnership: The Canadian Journal of Library and Information Practice and Research* 12, no. 1 (August 29, 2017), https://doi.org/10.21083/partnership.v12i1.3961; Mark Edward Eaton, “A Comparative Analysis of the Use of GitHub by Librarians and Non-Librarians,” *Evidence Based Library and Information Practice* 13, no. 2 (June 15, 2018): 27–47, https://doi.org/10.18438/eblip29291; Sarah Nguyễn and Vicky Rampin, “Who Writes Scholarly Code?,” *International Digital Curation Conference (IDCC)*, Online, June 13-16, 2022 (Session G, Part 1), Online: Zenodo, 2022, https://doi.org/10.5281/zenodo.6670225.
 [^1]: Sean Morey Smith and Lisa Spiro, “Evaluating GitHub for DH,” accessed August 2, 2024, https://seanmsmithphd.net/evaluating-github-for-dh/.
 [^4]: Angela Xiao Wu and Harsh Taneja, “Platform Enclosure of Human Behavior and Its Measurement: Using Behavioral Trace Data against Platform Episteme,” *New Media & Society* 23, no. 9 (September 1, 2021): 2650–67, https://doi.org/10.1177/1461444820933547.
+
+<script>
+    $(document).ready(function() {
+        $('table').DataTable();
+    });
+</script>
