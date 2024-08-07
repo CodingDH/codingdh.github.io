@@ -39,6 +39,12 @@ form {
   }
 }
 
+form:not(.vega-bindings) {
+  margin: 0 0 5px 0;
+  padding: 1em;
+  background-color: #f2f3f3;
+}
+
 label,
 input,
 button,
